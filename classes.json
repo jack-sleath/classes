@@ -194,8 +194,8 @@
             "speed":"25",
             "extraSkills":""
         }
-    }
-        {
+    },
+    {
         "classname":"GAR - ARC Assault",
         "classStats":{
             "health":{
@@ -222,5 +222,5 @@
             "speed":"25",
             "extraSkills":""
         }
-    },
+    }
 ]
