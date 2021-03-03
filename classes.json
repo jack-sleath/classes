@@ -202,13 +202,13 @@
                 "max":"15",
                 "current":"15"
             },
-            "weapons":{Arc Blaster, 2 DC-17 Blaster Pistols}
+            "weapons":{
                 "primary":{
                     "name":"ARC Blaster",
                     "bonus":"1d10, 75rng",
                     "type":""
                 },
-                "secondary":{2 DC-17}
+                "secondary":{
                     "name":"DC-17",
                     "bonus":"2d6 30rng",
                     "type":"Dual"
