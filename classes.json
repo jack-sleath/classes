@@ -13,7 +13,7 @@
                     "range":"2 per turn",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"",
@@ -21,7 +21,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"B1 Assault",
@@ -47,7 +47,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"B-2 Wrist Rocket",
@@ -55,7 +55,7 @@
                     "range":"AOE 5, V Weapon",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"B2",
@@ -81,7 +81,7 @@
                     "range":"Can attack 4 times",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Droideka Rolling",
@@ -89,7 +89,7 @@
                     "range":"change to Standing",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                      
                 }
             },
@@ -118,7 +118,7 @@
                     "range":"Can attack twice, Aoe 5m",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Droideka Rolling",
@@ -126,7 +126,7 @@
                     "range":"change to Standing",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                      
                 }
             },
@@ -155,7 +155,7 @@
                     "range":"2 per turn",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Repair Tool",
@@ -163,7 +163,7 @@
                     "range":"Slice",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"B1 Engineer",
@@ -189,7 +189,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"",
@@ -197,7 +197,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"B1 Sniper",
@@ -223,7 +223,7 @@
                     "range":"2 per turn, Stun Option",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Vibroblade",
@@ -231,7 +231,7 @@
                     "range":"Can be carried 2 handed ",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"BX Assault",
@@ -257,7 +257,7 @@
                     "range":"No reload, Spray and Pray (AOE, All units take half damage)",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Vibroblade",
@@ -265,7 +265,7 @@
                     "range":"Can be carried 2 handed ",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"BX Heavy",
@@ -291,7 +291,7 @@
                     "range":"-5 on attack roll to hit 10m or less, +1d6 when 40+m ",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Vibroblade",
@@ -299,7 +299,7 @@
                     "range":"Can be carried 2 handed ",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"BX Heavy",
@@ -325,7 +325,7 @@
                     "range":"-5 on attack roll to hit 10m or less, +1d6 when 40+m ",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Dual Vibroknives",
@@ -333,7 +333,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"BX Heavy",
@@ -359,7 +359,7 @@
                     "range":"2 per turn, stun option",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"ElectroStaff",
@@ -367,7 +367,7 @@
                     "range":"Must roll 10+EnemyConstitution or above",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Magnaguard",
@@ -393,7 +393,7 @@
                     "range":"Scope: If turn spent with no movement, +2 to hit; 1d10 for damage",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -401,7 +401,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Assault Clone",
@@ -427,7 +427,7 @@
                     "range":"Can attack twice per turn",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -435,7 +435,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Assault Clone",
@@ -461,7 +461,7 @@
                     "range":"Dual Wielded",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -469,7 +469,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Assault Clone",
@@ -495,7 +495,7 @@
                     "range":"AOE 5m Radius",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -503,7 +503,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Heavy Clone",
@@ -529,7 +529,7 @@
                     "range":"Can attack twice per turn",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Rocket Launcher",
@@ -537,7 +537,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Heavy Clone",
@@ -563,7 +563,7 @@
                     "range":"-5 to attack roll within 10m, +1d6 to shots longer than 40 meters",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -571,7 +571,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Sniper Clone",
@@ -597,7 +597,7 @@
                     "range":"Can attack twice per turn",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Repair Tool",
@@ -605,7 +605,7 @@
                     "range":"heals object targets",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Engineer Clone",
@@ -631,7 +631,7 @@
                     "range":"Can attack twice per turn, roll separately",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Bacta Pack",
@@ -639,7 +639,7 @@
                     "range":"heal living creature, can be used as move and attack actions",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Medic Clone",
@@ -665,7 +665,7 @@
                     "range":"Can attack twice per turn, roll separately",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"Stun Baton",
@@ -673,7 +673,7 @@
                     "range":"Must roll 10+EnemyConstitution or above",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"Coruscant Guard",
@@ -699,7 +699,7 @@
                     "range":"",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -707,7 +707,7 @@
                     "range":"Dual",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"ARC Assault",
@@ -733,7 +733,7 @@
                     "range":"All damage is AOE on spot chosen, 5m",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -741,7 +741,7 @@
                     "range":"Dual",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"ARC Heavy",
@@ -767,7 +767,7 @@
                     "range":"-5 to attack roll within 10m, +1d6 40m+",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -775,7 +775,7 @@
                     "range":"Dual",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"ARC Stealth/Sniper",
@@ -801,7 +801,7 @@
                     "range":"If you are shooting will undetected(ask GM) gain +1 to hit and +3 to damage",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 },
                 "secondary":{
                     "name":"DC-17",
@@ -809,7 +809,7 @@
                     "range":"Dual",
                      "ammo":"",
                      "maxammo":"",
-                     "extra"
+                     "extra" : ""
                 }
             },
             "class":"ARC Stealth",
