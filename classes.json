@@ -748,7 +748,7 @@
         }
     },
     {
-        "classname":"GAR-ARC Sniper DC-15X",
+        "classname":"GAR - ARC Sniper DC-15X",
         "classStats":{
             "health":{
                 "max":"10",
@@ -782,7 +782,7 @@
         }
     },
     {
-        "classname":"GAR-ARC Stealth",
+        "classname":"GAR - ARC Stealth",
         "classStats":{
             "health":{
                 "max":"10",
