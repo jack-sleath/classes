@@ -509,6 +509,62 @@
             "extraSkills":"Special: Can build Hardcover (Provides cover from specified 2 adjacent cardinal directions and inbetween, protects all behind until broken) (HP 30 AC 5)2 squares of hard cover, takes both action and movementChoose one until next loadout change:Creates Auto Turret (Speed:0 AC 4 HP 6; Action Attack: B-2)Deploy Squad Shield (Ac 3, HP 40) (can not be shot through while inside) Lasts 1 turn "
         }
     },
+     {
+        "classname":"GAR - Medical Clone",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"DC-15s",
+                    "bonus":"1d6 40rng",
+                    "type":"Can attack twice per turn, roll separately"
+                },
+                "secondary":{
+                    "name":"Bacta Pack",
+                    "bonus":"2d4+2 ",
+                    "type":"heal living creature, can be used as move and attack actions"
+                }
+            },
+            "class":"Medic Clone",
+            "background":"Clone",
+            "species":"Clone",
+            "alignment":"GAR",
+            "ac":"8",
+            "speed":"30m",
+            "extraSkills":""
+        }
+    },
+       {
+        "classname":"GAR - Coruscant Guard",
+        "classStats":{
+            "health":{
+                "max":"12",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"DC-15s",
+                    "bonus":"1d6 40rng",
+                    "type":"Can attack twice per turn, roll separately"
+                },
+                "secondary":{
+                    "name":"Stun Baton",
+                    "bonus":"1d20",
+                    "type":"Must roll 10+EnemyConstitution or above"
+                }
+            },
+            "class":"Coruscant Guard",
+            "background":"Clone",
+            "species":"Clone",
+            "alignment":"GAR",
+            "ac":"10",
+            "speed":"40",
+            "extraSkills":""
+        }
+    },
     {
         "classname":"GAR - ARC Assault",
         "classStats":{
@@ -536,5 +592,90 @@
             "speed":"25",
             "extraSkills":""
         }
+    },
+      {
+        "classname":"GAR - ARC Heavy",
+        "classStats":{
+            "health":{
+                "max":"20",
+                "current":"20"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"Z-6",
+                    "bonus":"2d6, 35rng",
+                    "type":"All damage is AOE on spot chosen, 5m"
+                },
+                "secondary":{
+                    "name":"DC-17",
+                    "bonus":"2d6 30rng",
+                    "type":"Dual"
+                }
+            },
+            "class":"ARC Heavy",
+            "background":"Clone",
+            "species":"Clone",
+            "alignment":"GAR",
+            "ac":"14",
+            "speed":"25",
+            "extraSkills":""
+        }
+    },
+  {
+     "classname":"GAR-ARC Sniper DC-15X",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"Dc-15x",
+                    "bonus":"1d12, 250 rng",
+                    "type":"-5 to attack roll within 10m, +1d6 40m+"
+                },
+                "secondary":{
+                    "name":"DC-17",
+                    "bonus":"2d6 30rng",
+                    "type":"Dual"
+                }
+            },
+            "class":"ARC Stealth/Sniper",
+            "background":"Clone",
+            "species":"Clone",
+            "alignment":"GAR",
+            "ac":"10",
+            "speed":"35",
+            "extraSkills":""
+        }
+    },
+       {
+     "classname":"GAR-ARC Stealth",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"Suppressed ARC Blaster",
+                    "bonus":"1d8, 75 rng",
+                    "type":"If you are shooting will undetected(ask GM) gain +1 to hit and +3 to damage"
+                },
+                "secondary":{
+                    "name":"DC-17",
+                    "bonus":"2d6 30rng",
+                    "type":"Dual"
+                }
+            },
+            "class":"ARC Stealth",
+            "background":"Clone",
+            "species":"Clone",
+            "alignment":"GAR",
+            "ac":"10",
+            "speed":"35",
+            "extraSkills":""
+        }
     }
+     
 ]
