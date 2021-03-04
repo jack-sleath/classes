@@ -285,6 +285,34 @@
             "extraSkills":"5 AC to all melee attacks"
         }
     },
+       {
+        "classname":"CIS - Magnaguard",
+        "classStats":{
+            "health":{
+                "max":"12",
+                "current":"12"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"E-5",
+                    "bonus":"1d6 40rng",
+                    "type":"2 per turn, stun option"
+                },
+                "secondary":{
+                    "name":"ElectroStaff",
+                    "bonus":"1d20",
+                    "type":"Must roll 10+EnemyConstitution or above"
+                }
+            },
+            "class":"Magnaguard",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"10",
+            "speed":"40m",
+            "extraSkills":"Only 1 per Commander"
+        }
+    },
     {
         "classname":"GAR - Assault Clone DC-15a",
         "classStats":{
@@ -398,7 +426,7 @@
         }
     },
     {
-        "classname":"GAR - Heavy Clone DC-15s",
+        "classname":"GAR - Heavy Rocket Clone",
         "classStats":{
             "health":{
                 "max":"12",
@@ -423,6 +451,62 @@
             "ac":"10",
             "speed":"25",
             "extraSkills":""
+        }
+    },
+     {
+        "classname":"GAR - Sniper Clone",
+        "classStats":{
+            "health":{
+                "max":"8",
+                "current":"8"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"DC-15x",
+                    "bonus":"1d12 200rng",
+                    "type":"-5 to attack roll within 10m, +1d6 to shots longer than 40 meters"
+                },
+                "secondary":{
+                    "name":"DC-17",
+                    "bonus":"1d6 30rng",
+                    "type":""
+                }
+            },
+            "class":"Sniper Clone",
+            "background":"Clone",
+            "species":"Clone",
+            "alignment":"GAR",
+            "ac":"5",
+            "speed":"40m",
+            "extraSkills":"4 Snipers per Battalion"
+        }
+    },
+      {
+        "classname":"GAR - Engineer",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"DC-15s",
+                    "bonus":"1d6 40rng",
+                    "type":"Can attack twice per turn"
+                },
+                "secondary":{
+                    "name":"Repair Tool",
+                    "bonus":"2d6",
+                    "type":"heals object targets"
+                }
+            },
+            "class":"Engineer Clone",
+            "background":"Clone",
+            "species":"Clone",
+            "alignment":"GAR",
+            "ac":"8",
+            "speed":"30",
+            "extraSkills":"Special: Can build Hardcover (Provides cover from specified 2 adjacent cardinal directions and inbetween, protects all behind until broken) (HP 30 AC 5)2 squares of hard cover, takes both action and movementChoose one until next loadout change:Creates Auto Turret (Speed:0 AC 4 HP 6; Action Attack: B-2)Deploy Squad Shield (Ac 3, HP 40) (can not be shot through while inside) Lasts 1 turn "
         }
     },
     {
