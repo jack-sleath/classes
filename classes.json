@@ -1,4 +1,32 @@
 [
+     {
+        "classname":"CIS - B1 Assault",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"E-5",
+                    "bonus":"1d6 40rng",
+                    "type":"2 per turn"
+                },
+                "secondary":{
+                    "name":
+                    "bonus":
+                    "type":
+                }
+            },
+            "class":"B1 Assault",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"8",
+            "speed":"30",
+            "extraSkills":
+        }
+    },
     {
         "classname":"CIS - B1 Engineer",
         "classStats":{
@@ -9,19 +37,13 @@
             "weapons":{
                 "primary":{
                     "name":"E-5",
-                    "dice":"1d6",
-                    "range":"40rng",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":"2 per turn"
+                    "bonus":"1d6 40rng",
+                    "type":"2 per turn"
                 },
                 "secondary":{
                     "name":"Repair Tool",
-                    "dice":"",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":"Repair or Slice a vehicle"
+                    "bonus":"Repair",
+                    "type":"Slice"
                 }
             },
             "class":"B1 Engineer",
@@ -43,19 +65,13 @@
             "weapons":{
                 "primary":{
                     "name":"E-5s",
-                    "dice":"1d12",
-                    "range":"200rng",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":"-5 on atk to hit 10m or less\n+1d6 when 40m+ on atk & dmg"
+                    "bonus":"1d12 200rng",
+                    "type":""
                 },
                 "secondary":{
                     "name":"",
-                    "dice":"",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"",
+                    "type":""
                 }
             },
             "class":"B1 Sniper",
@@ -64,7 +80,7 @@
             "alignment":"CIS",
             "ac":"8",
             "speed":"40",
-            "extraSkills":""
+            "extraSkills":"-5 on atk to hit 10m or less\n+1d6 when 40m+ on atk & dmg"
         }
     },
     {
@@ -77,19 +93,13 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15a",
-                    "dice":"1d8 75rng",
-                    "range":"Scope: If turn spent with no movement, +2 to hit; 1d10 for damage",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"1d8 75rng",
+                    "type":"Scope: If turn spent with no movement, +2 to hit; 1d10 for damage"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"1d6 30rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"1d6 30rng",
+                    "type":""
                 }
             },
             "class":"Assault Clone",
@@ -111,19 +121,13 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "dice":"1d6 40rng",
-                    "range":"Can attack twice per turn",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"1d6 40rng",
+                    "type":"Can attack twice per turn"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"1d6 30rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"1d6 30rng",
+                    "type":""
                 }
             },
             "class":"Assault Clone",
@@ -145,19 +149,13 @@
             "weapons":{
                 "primary":{
                     "name":"DC-17",
-                    "dice":"2d6 30rng",
-                    "range":"Dual Wielded",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"2d6 30rng",
+                    "type":"Dual Wielded"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"1d6 30rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"1d6 30rng",
+                    "type":""
                 }
             },
             "class":"Assault Clone",
@@ -179,19 +177,13 @@
             "weapons":{
                 "primary":{
                     "name":"Z-6",
-                    "dice":"2d6 35rng",
-                    "range":"AOE 5m Radius",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"2d6 35rng",
+                    "type":"AOE 5m Radius"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"1d6 30rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"1d6 30rng",
+                    "type":""
                 }
             },
             "class":"Heavy Clone",
@@ -213,19 +205,13 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "dice":"1d6 40rng",
-                    "range":"Can attack twice per turn",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"1d6 40rng",
+                    "type":"Can attack twice per turn"
                 },
                 "secondary":{
                     "name":"Rocket Launcher",
-                    "dice":"3d4 50rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"3d4 50rng",
+                    "type":""
                 }
             },
             "class":"Heavy Clone",
@@ -247,19 +233,13 @@
             "weapons":{
                 "primary":{
                     "name":"ARC Blaster",
-                    "dice":"1d10, 75rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"1d10, 75rng",
+                    "type":""
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"2d6 30rng",
-                    "range":"Dual",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "bonus":"2d6 30rng",
+                    "type":"Dual"
                 }
             },
             "class":"ARC Assault",
