@@ -9,19 +9,19 @@
             "weapons":{
                 "primary":{
                     "name":"E-5",
-                    "dice":"1d6 40rng",
-                    "range":"2 per turn",
+                    "dice":"1d6",
+                    "range":"40rng",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"2 per turn"
                 },
                 "secondary":{
                     "name":"Repair Tool",
-                    "dice":"Repair",
-                    "range":"Slice",
+                    "dice":"",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"Repair or Slice a vehicle"
                 }
             },
             "class":"B1 Engineer",
@@ -43,11 +43,11 @@
             "weapons":{
                 "primary":{
                     "name":"E-5s",
-                    "dice":"1d12 200rng",
-                    "range":"",
+                    "dice":"1d12",
+                    "range":"200rng",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"-5 on atk to hit 10m or less\n+1d6 when 40m+ on atk & dmg"
                 },
                 "secondary":{
                     "name":"",
@@ -64,7 +64,7 @@
             "alignment":"CIS",
             "ac":"8",
             "speed":"40",
-            "extraSkills":"-5 on atk to hit 10m or less\n+1d6 when 40m+ on atk & dmg"
+            "extraSkills":""
         }
     },
     {
