@@ -9,11 +9,11 @@
             "weapons":{
                 "primary":{
                     "name":"E-5",
-                    "dice":"1d6 40rng",
-                    "range":"2 per turn",
+                    "dice":"1d6",
+                    "range":"40rng",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"2 per turn"
                 },
                 "secondary":{
                     "name":"",
@@ -43,19 +43,19 @@
             "weapons":{
                 "primary":{
                     "name":"B-2 Wrist",
-                    "dice":"3d6 20 rng",
-                    "range":"",
+                    "dice":"3d6",
+                    "range":"20rng",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
                     "name":"B-2 Wrist Rocket",
-                    "dice":"1d12 30 rng",
-                    "range":"AOE 5, V Weapon",
+                    "dice":"1d12",
+                    "range":"30rng",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"AOE 5, V Weapon"
                 }
             },
             "class":"B2",
@@ -77,19 +77,19 @@
             "weapons":{
                 "primary":{
                     "name":"Droideka Blasters",
-                    "dice":"1d8 20rng",
-                    "range":"Can attack 4 times",
+                    "dice":"1d8",
+                    "range":"20rng",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"Can attack 4 times"
                 },
                 "secondary":{
                     "name":"Droideka Rolling",
-                    "dice":"80m",
-                    "range":"change to Standing",
+                    "dice":"",
+                    "range":"80m",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"Change to Standing"
                 }
             },
             "class":"Droideka Blasters",
@@ -111,19 +111,19 @@
             "weapons":{
                 "primary":{
                     "name":"Droideka Cannon",
-                    "dice":"1d10 40",
-                    "range":"Can attack twice, Aoe 5m",
+                    "dice":"1d10",
+                    "range":"40rng",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"Can attack twice, Aoe 5m"
                 },
                 "secondary":{
                     "name":"Droideka Rolling",
-                    "dice":"80m",
-                    "range":"change to Standing",
+                    "dice":"",
+                    "range":"80m",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"Change to Standing"
                 }
             },
             "class":"Droideka",
@@ -145,11 +145,11 @@
             "weapons":{
                 "primary":{
                     "name":"E-5",
-                    "dice":"1d6 40rng",
-                    "range":"2 per turn",
+                    "dice":"1d6",
+                    "range":"40rng",
                     "ammo":"",
                     "maxammo":"",
-                    "extra":""
+                    "extra":"2 per turn"
                 },
                 "secondary":{
                     "name":"Repair Tool",
