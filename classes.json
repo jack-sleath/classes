@@ -15,7 +15,7 @@
                 "secondary":{
                     "name":"",
                     "bonus":"",
-                    "type":"",
+                    "type":""
                 }
             },
             "class":"B1 Assault",
@@ -24,7 +24,7 @@
             "alignment":"CIS",
             "ac":"8",
             "speed":"30",
-            "extraSkills":
+            "extraSkills":""
         }
     },
             {
@@ -43,7 +43,7 @@
                 "secondary":{
                     "name":"B-2 Wrist Rocket",
                     "bonus":"1d12 30 rng",
-                    "type":"AOE 5, V Weapon",
+                    "type":"AOE 5,V Weapon"
                 }
             },
             "class":"B2",
@@ -52,7 +52,7 @@
             "alignment":"CIS",
             "ac":"8",
             "speed":"20",
-            "extraSkills":
+            "extraSkills":""
         }
     },
     {
