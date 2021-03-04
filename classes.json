@@ -23,7 +23,7 @@
             "species":"Droid",
             "alignment":"CIS",
             "ac":"8",
-            "speed":"30",
+            "speed":"30m",
             "extraSkills":""
         }
     },
@@ -43,7 +43,7 @@
                 "secondary":{
                     "name":"B-2 Wrist Rocket",
                     "bonus":"1d12 30 rng",
-                    "type":"AOE 5,V Weapon"
+                    "type":"AOE 5, V Weapon"
                 }
             },
             "class":"B2",
@@ -51,8 +51,39 @@
             "species":"Droid",
             "alignment":"CIS",
             "ac":"8",
-            "speed":"20",
+            "speed":"20m",
             "extraSkills":""
+        }
+    },
+          {
+        "classname":"CIS - Droideka",
+        "classStats":{
+            "health":{
+                "max":"8",
+                "current":"8"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"Droideka Blasters",
+                    "bonus":"1d8 20rng",
+                    "type":"Can attack twice, Aoe 5m"
+                },
+                "secondary":{
+                    "name":"Rolling Mode",
+                    "bonus":"80m move",
+                    "type":"Transition: Entire action, change to Driodika (vehicle)[loadout]: Standing"
+
+                }
+            },
+            "class":"Droideka",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"8",
+            "speed":"5m",
+            "extraSkills": "Special, Instead of attacking, Droidekas can deploy a Shield (AC 5) (HP 20) all damage exceeding shield goes to the droideka"
+
+
         }
     },
     {
@@ -79,7 +110,7 @@
             "species":"Droid",
             "alignment":"CIS",
             "ac":"5",
-            "speed":"15",
+            "speed":"15m",
             "extraSkills":"Can use action to 'Build' a droid: Takes entire turn (can only have two creations on the field, modified droids are considered a creation)\n\tChoose one until next loadout change:\nCreates Auto Turret (Speed:0 AC 4 HP 6; Action Attack: B-2)\nDeploy Squad Shield (Ac 3, HP 40) (can not be shot through while inside) lasts 1 turn"
         }
     },
