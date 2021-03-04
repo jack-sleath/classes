@@ -69,9 +69,9 @@
                     "type":"Can attack twice, Aoe 5m"
                 },
                 "secondary":{
-                    "name":"Rolling Mode",
-                    "bonus":"80m move",
-                    "type":"Transition: Entire action, change to Driodika (vehicle)[loadout]: Standing"
+                    "name":"",
+                    "bonus":"",
+                    "type":""
 
                 }
             },
