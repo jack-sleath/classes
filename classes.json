@@ -69,10 +69,10 @@
                     "type":"Can attack twice, Aoe 5m"
                 },
                 "secondary":{
-                    "name":"",
-                    "bonus":"",
-                    "type":""
-
+                    "name":"Droideka Rolling",
+                    "bonus":"80m",
+                    "type":"change to Standing"
+                     
                 }
             },
             "class":"Droideka",
