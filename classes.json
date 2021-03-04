@@ -173,6 +173,34 @@
             "extraSkills":"-5 on atk to hit 10m or less\n+1d6 when 40m+ on atk & dmg"
         }
     },
+       {
+        "classname":"CIS - BX Assault",
+        "classStats":{
+            "health":{
+                "max":"12",
+                "current":"12"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"E-5",
+                    "bonus":"1d6 50rng",
+                    "type":"2 per turn, Stun Option"
+                },
+                "secondary":{
+                    "name":"Vibroblade",
+                    "bonus":"1d10",
+                    "type":"Can be carried 2 handed "
+                }
+            },
+            "class":"BX Assault",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"14",
+            "speed":"30m",
+            "extraSkills":"7 AC to all melee attacks"
+        }
+    },
     {
         "classname":"GAR - Assault Clone DC-15a",
         "classStats":{
