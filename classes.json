@@ -27,6 +27,34 @@
             "extraSkills":
         }
     },
+            {
+        "classname":"CIS - B2",
+        "classStats":{
+            "health":{
+                "max":"20",
+                "current":"20"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"B-2 Wrist",
+                    "bonus":"3d6 20 rng",
+                    "type":""
+                },
+                "secondary":{
+                    "name":"B-2 Wrist Rocket",
+                    "bonus":"1d12 30 rng",
+                    "type":"AOE 5, V Weapon",
+                }
+            },
+            "class":"B2",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"8",
+            "speed":"20",
+            "extraSkills":
+        }
+    },
     {
         "classname":"CIS - B1 Engineer",
         "classStats":{
