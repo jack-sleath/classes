@@ -17,8 +17,8 @@
                 },
                 "secondary":{
                     "name":"Repair Tool",
-                    "bonus":"Repair",
-                    "type":"Slice",
+                    "dice":"Repair",
+                    "range":"Slice",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
@@ -43,16 +43,16 @@
             "weapons":{
                 "primary":{
                     "name":"E-5s",
-                    "bonus":"1d12 200rng",
-                    "type":"",
+                    "dice":"1d12 200rng",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
                     "name":"",
-                    "bonus":"",
-                    "type":"",
+                    "dice":"",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
@@ -77,16 +77,16 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15a",
-                    "bonus":"1d8 75rng",
-                    "type":"Scope: If turn spent with no movement, +2 to hit; 1d10 for damage",
+                    "dice":"1d8 75rng",
+                    "range":"Scope: If turn spent with no movement, +2 to hit; 1d10 for damage",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "bonus":"1d6 30rng",
-                    "type":"",
+                    "dice":"1d6 30rng",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
@@ -111,16 +111,16 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "bonus":"1d6 40rng",
-                    "type":"Can attack twice per turn",
+                    "dice":"1d6 40rng",
+                    "range":"Can attack twice per turn",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "bonus":"1d6 30rng",
-                    "type":"",
+                    "dice":"1d6 30rng",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
@@ -145,16 +145,16 @@
             "weapons":{
                 "primary":{
                     "name":"DC-17",
-                    "bonus":"2d6 30rng",
-                    "type":"Dual Wielded",
+                    "dice":"2d6 30rng",
+                    "range":"Dual Wielded",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "bonus":"1d6 30rng",
-                    "type":"",
+                    "dice":"1d6 30rng",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
@@ -179,16 +179,16 @@
             "weapons":{
                 "primary":{
                     "name":"Z-6",
-                    "bonus":"2d6 35rng",
-                    "type":"AOE 5m Radius",
+                    "dice":"2d6 35rng",
+                    "range":"AOE 5m Radius",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "bonus":"1d6 30rng",
-                    "type":"",
+                    "dice":"1d6 30rng",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
@@ -213,16 +213,16 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "bonus":"1d6 40rng",
-                    "type":"Can attack twice per turn",
+                    "dice":"1d6 40rng",
+                    "range":"Can attack twice per turn",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
                     "name":"Rocket Launcher",
-                    "bonus":"3d4 50rng",
-                    "type":"",
+                    "dice":"3d4 50rng",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
@@ -247,16 +247,16 @@
             "weapons":{
                 "primary":{
                     "name":"ARC Blaster",
-                    "bonus":"1d10, 75rng",
-                    "type":"",
+                    "dice":"1d10, 75rng",
+                    "range":"",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "bonus":"2d6 30rng",
-                    "type":"Dual",
+                    "dice":"2d6 30rng",
+                    "range":"Dual",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
