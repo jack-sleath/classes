@@ -13,9 +13,9 @@
                     "type":"2 per turn"
                 },
                 "secondary":{
-                    "name":
-                    "bonus":
-                    "type":
+                    "name":"",
+                    "bonus":"",
+                    "type":"",
                 }
             },
             "class":"B1 Assault",
