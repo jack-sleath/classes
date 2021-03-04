@@ -1,5 +1,5 @@
 [
-     {
+    {
         "classname":"CIS - B1 Assault",
         "classStats":{
             "health":{
@@ -11,17 +11,17 @@
                     "name":"E-5",
                     "dice":"1d6 40rng",
                     "range":"2 per turn",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"",
                     "dice":"",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"B1 Assault",
@@ -33,7 +33,7 @@
             "extraSkills":""
         }
     },
-            {
+    {
         "classname":"CIS - B2",
         "classStats":{
             "health":{
@@ -45,17 +45,17 @@
                     "name":"B-2 Wrist",
                     "dice":"3d6 20 rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"B-2 Wrist Rocket",
                     "dice":"1d12 30 rng",
                     "range":"AOE 5, V Weapon",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"B2",
@@ -67,7 +67,7 @@
             "extraSkills":""
         }
     },
-          {
+    {
         "classname":"CIS - Droideka Blasters",
         "classStats":{
             "health":{
@@ -79,18 +79,17 @@
                     "name":"Droideka Blasters",
                     "dice":"1d8 20rng",
                     "range":"Can attack 4 times",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Droideka Rolling",
                     "dice":"80m",
                     "range":"change to Standing",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
-                     
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Droideka Blasters",
@@ -99,12 +98,10 @@
             "alignment":"CIS",
             "ac":"8",
             "speed":"5m",
-            "extraSkills": "Special, Instead of attacking, Droidekas can deploy a Shield (AC 5) (HP 20) all damage exceeding shield goes to the droideka"
-
-
+            "extraSkills":"Special, Instead of attacking, Droidekas can deploy a Shield (AC 5) (HP 20) all damage exceeding shield goes to the droideka"
         }
     },
-       {
+    {
         "classname":"CIS - Droideka Cannons",
         "classStats":{
             "health":{
@@ -116,18 +113,17 @@
                     "name":"Droideka Cannon",
                     "dice":"1d10 40",
                     "range":"Can attack twice, Aoe 5m",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Droideka Rolling",
                     "dice":"80m",
                     "range":"change to Standing",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
-                     
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Droideka",
@@ -136,9 +132,7 @@
             "alignment":"CIS",
             "ac":"8",
             "speed":"5m",
-            "extraSkills": "Special, Instead of attacking, Droidekas can deploy a Shield (AC 5) (HP 20) all damage exceeding shield goes to the droideka"
-
-
+            "extraSkills":"Special, Instead of attacking, Droidekas can deploy a Shield (AC 5) (HP 20) all damage exceeding shield goes to the droideka"
         }
     },
     {
@@ -153,17 +147,17 @@
                     "name":"E-5",
                     "dice":"1d6 40rng",
                     "range":"2 per turn",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Repair Tool",
                     "dice":"Repair",
                     "range":"Slice",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"B1 Engineer",
@@ -187,17 +181,17 @@
                     "name":"E-5s",
                     "dice":"1d12 200rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"",
                     "dice":"",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"B1 Sniper",
@@ -209,7 +203,7 @@
             "extraSkills":"-5 on atk to hit 10m or less\n+1d6 when 40m+ on atk & dmg"
         }
     },
-       {
+    {
         "classname":"CIS - BX Assault",
         "classStats":{
             "health":{
@@ -221,17 +215,17 @@
                     "name":"E-5",
                     "dice":"1d6 50rng",
                     "range":"2 per turn, Stun Option",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Vibroblade",
                     "dice":"1d10",
                     "range":"Can be carried 2 handed ",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"BX Assault",
@@ -243,7 +237,7 @@
             "extraSkills":"7 AC to all melee attacks"
         }
     },
-       {
+    {
         "classname":"CIS - BX Heavy",
         "classStats":{
             "health":{
@@ -255,17 +249,17 @@
                     "name":"E-5C",
                     "dice":"2s6 30rng",
                     "range":"No reload, Spray and Pray (AOE, All units take half damage)",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Vibroblade",
                     "dice":"1d10",
                     "range":"Can be carried 2 handed ",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"BX Heavy",
@@ -277,7 +271,7 @@
             "extraSkills":"10 AC to Melee attacks"
         }
     },
-     {
+    {
         "classname":"CIS - BX Stealth/Sniper Vibroblade",
         "classStats":{
             "health":{
@@ -289,17 +283,17 @@
                     "name":"E5S",
                     "dice":"1d12 250 rng",
                     "range":"-5 on attack roll to hit 10m or less, +1d6 when 40+m ",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Vibroblade",
                     "dice":"1d8",
                     "range":"Can be carried 2 handed ",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"BX Heavy",
@@ -311,7 +305,7 @@
             "extraSkills":"5 AC to all melee attacks"
         }
     },
-       {
+    {
         "classname":"CIS - BX Stealth/Sniper 2 Vibroknives",
         "classStats":{
             "health":{
@@ -323,17 +317,17 @@
                     "name":"E5S",
                     "dice":"1d12 250 rng",
                     "range":"-5 on attack roll to hit 10m or less, +1d6 when 40+m ",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Dual Vibroknives",
                     "dice":"2d4",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"BX Heavy",
@@ -345,7 +339,7 @@
             "extraSkills":"5 AC to all melee attacks"
         }
     },
-       {
+    {
         "classname":"CIS - Magnaguard",
         "classStats":{
             "health":{
@@ -357,17 +351,17 @@
                     "name":"E-5",
                     "dice":"1d6 40rng",
                     "range":"2 per turn, stun option",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"ElectroStaff",
                     "dice":"1d20",
                     "range":"Must roll 10+EnemyConstitution or above",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Magnaguard",
@@ -391,17 +385,17 @@
                     "name":"DC-15a",
                     "dice":"1d8 75rng",
                     "range":"Scope: If turn spent with no movement, +2 to hit; 1d10 for damage",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"1d6 30rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Assault Clone",
@@ -425,17 +419,17 @@
                     "name":"DC-15s",
                     "dice":"1d6 40rng",
                     "range":"Can attack twice per turn",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"1d6 30rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Assault Clone",
@@ -459,17 +453,17 @@
                     "name":"DC-17",
                     "dice":"2d6 30rng",
                     "range":"Dual Wielded",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"1d6 30rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Assault Clone",
@@ -493,17 +487,17 @@
                     "name":"Z-6",
                     "dice":"2d6 35rng",
                     "range":"AOE 5m Radius",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"1d6 30rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Heavy Clone",
@@ -527,17 +521,17 @@
                     "name":"DC-15s",
                     "dice":"1d6 40rng",
                     "range":"Can attack twice per turn",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Rocket Launcher",
                     "dice":"3d4 50rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Heavy Clone",
@@ -549,7 +543,7 @@
             "extraSkills":""
         }
     },
-     {
+    {
         "classname":"GAR - Sniper Clone",
         "classStats":{
             "health":{
@@ -561,17 +555,17 @@
                     "name":"DC-15x",
                     "dice":"1d12 200rng",
                     "range":"-5 to attack roll within 10m, +1d6 to shots longer than 40 meters",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"1d6 30rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Sniper Clone",
@@ -583,7 +577,7 @@
             "extraSkills":"4 Snipers per Battalion"
         }
     },
-      {
+    {
         "classname":"GAR - Engineer",
         "classStats":{
             "health":{
@@ -595,17 +589,17 @@
                     "name":"DC-15s",
                     "dice":"1d6 40rng",
                     "range":"Can attack twice per turn",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Repair Tool",
                     "dice":"2d6",
                     "range":"heals object targets",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Engineer Clone",
@@ -617,7 +611,7 @@
             "extraSkills":"Special: Can build Hardcover (Provides cover from specified 2 adjacent cardinal directions and inbetween, protects all behind until broken) (HP 30 AC 5)2 squares of hard cover, takes both action and movementChoose one until next loadout change:Creates Auto Turret (Speed:0 AC 4 HP 6; Action Attack: B-2)Deploy Squad Shield (Ac 3, HP 40) (can not be shot through while inside) Lasts 1 turn "
         }
     },
-     {
+    {
         "classname":"GAR - Medical Clone",
         "classStats":{
             "health":{
@@ -629,17 +623,17 @@
                     "name":"DC-15s",
                     "dice":"1d6 40rng",
                     "range":"Can attack twice per turn, roll separately",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Bacta Pack",
                     "dice":"2d4+2 ",
                     "range":"heal living creature, can be used as move and attack actions",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Medic Clone",
@@ -651,7 +645,7 @@
             "extraSkills":""
         }
     },
-       {
+    {
         "classname":"GAR - Coruscant Guard",
         "classStats":{
             "health":{
@@ -663,17 +657,17 @@
                     "name":"DC-15s",
                     "dice":"1d6 40rng",
                     "range":"Can attack twice per turn, roll separately",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"Stun Baton",
                     "dice":"1d20",
                     "range":"Must roll 10+EnemyConstitution or above",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"Coruscant Guard",
@@ -697,17 +691,17 @@
                     "name":"ARC Blaster",
                     "dice":"1d10, 75rng",
                     "range":"",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"2d6 30rng",
                     "range":"Dual",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"ARC Assault",
@@ -719,7 +713,7 @@
             "extraSkills":""
         }
     },
-      {
+    {
         "classname":"GAR - ARC Heavy",
         "classStats":{
             "health":{
@@ -731,17 +725,17 @@
                     "name":"Z-6",
                     "dice":"2d6, 35rng",
                     "range":"All damage is AOE on spot chosen, 5m",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"2d6 30rng",
                     "range":"Dual",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"ARC Heavy",
@@ -753,8 +747,8 @@
             "extraSkills":""
         }
     },
-  {
-     "classname":"GAR-ARC Sniper DC-15X",
+    {
+        "classname":"GAR-ARC Sniper DC-15X",
         "classStats":{
             "health":{
                 "max":"10",
@@ -765,17 +759,17 @@
                     "name":"Dc-15x",
                     "dice":"1d12, 250 rng",
                     "range":"-5 to attack roll within 10m, +1d6 40m+",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"2d6 30rng",
                     "range":"Dual",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"ARC Stealth/Sniper",
@@ -787,8 +781,8 @@
             "extraSkills":""
         }
     },
-       {
-     "classname":"GAR-ARC Stealth",
+    {
+        "classname":"GAR-ARC Stealth",
         "classStats":{
             "health":{
                 "max":"10",
@@ -799,17 +793,17 @@
                     "name":"Suppressed ARC Blaster",
                     "dice":"1d8, 75 rng",
                     "range":"If you are shooting will undetected(ask GM) gain +1 to hit and +3 to damage",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"2d6 30rng",
                     "range":"Dual",
-                     "ammo":"",
-                     "maxammo":"",
-                     "extra" : ""
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":""
                 }
             },
             "class":"ARC Stealth",
@@ -821,5 +815,4 @@
             "extraSkills":""
         }
     }
-     
 ]
