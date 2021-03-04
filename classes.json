@@ -201,6 +201,90 @@
             "extraSkills":"7 AC to all melee attacks"
         }
     },
+       {
+        "classname":"CIS - BX Heavy",
+        "classStats":{
+            "health":{
+                "max":"16",
+                "current":"16"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"E-5C",
+                    "bonus":"2s6 30rng",
+                    "type":"No reload, Spray and Pray (AOE, All units take half damage)"
+                },
+                "secondary":{
+                    "name":"Vibroblade",
+                    "bonus":"1d10",
+                    "type":"Can be carried 2 handed "
+                }
+            },
+            "class":"BX Heavy",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"15",
+            "speed":"25",
+            "extraSkills":"10 AC to Melee attacks"
+        }
+    },
+     {
+        "classname":"CIS - BX Stealth/Sniper Vibroblade",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"E5S",
+                    "bonus":"1d12 250 rng",
+                    "type":"-5 on attack roll to hit 10m or less, +1d6 when 40+m "
+                },
+                "secondary":{
+                    "name":"Vibroblade",
+                    "bonus":"1d8",
+                    "type":"Can be carried 2 handed "
+                }
+            },
+            "class":"BX Heavy",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"12",
+            "speed":"40",
+            "extraSkills":"5 AC to all melee attacks"
+        }
+    },
+       {
+        "classname":"CIS - BX Stealth/Sniper 2 Vibroknives",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"E5S",
+                    "bonus":"1d12 250 rng",
+                    "type":"-5 on attack roll to hit 10m or less, +1d6 when 40+m "
+                },
+                "secondary":{
+                    "name":"Dual Vibroknives",
+                    "bonus":"2d4",
+                    "type":""
+                }
+            },
+            "class":"BX Heavy",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"12",
+            "speed":"40",
+            "extraSkills":"5 AC to all melee attacks"
+        }
+    },
     {
         "classname":"GAR - Assault Clone DC-15a",
         "classStats":{
