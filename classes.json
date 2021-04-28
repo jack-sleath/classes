@@ -259,7 +259,7 @@
                     "range":"Melee",
                     "ammo":"N/A",
                     "maxammo":"N/A",
-                    "extra":"Can be carried 2 handed"
+                    "extra":"Can be carried 2 handed, Gives +2 to hit"
                 }
             },
             "class":"BX Assault",
@@ -300,7 +300,7 @@
             "background":"Droid",
             "species":"Droid",
             "alignment":"CIS",
-            "ac":"15",
+            "ac":"14",
             "speed":"25",
             "extraSkills":"10 AC to Melee attacks"
         }
@@ -314,12 +314,12 @@
             },
             "weapons":{
                 "primary":{
-                    "name":"E5S",
-                    "dice":"1d12 250 rng",
-                    "range":"-5 on attack roll to hit 10m or less, +1d6 when 40+m ",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "name":"E5S suppressed",
+                    "dice":"1d12 ",
+                    "range":"250 rng",
+                    "ammo":"2",
+                    "maxammo":"8",
+                    "extra":"-5 on attack roll to hit 10m or less, +1d6 when 40+m "
                 },
                 "secondary":{
                     "name":"Vibroblade",
@@ -330,13 +330,13 @@
                     "extra":""
                 }
             },
-            "class":"BX Heavy",
+            "class":"BX Stealth/Sniper Vibroblade",
             "background":"Droid",
             "species":"Droid",
             "alignment":"CIS",
-            "ac":"12",
+            "ac":"8",
             "speed":"40",
-            "extraSkills":"5 AC to all melee attacks"
+            "extraSkills":"10 AC to all melee attacks"
         }
     },
     {
@@ -348,12 +348,12 @@
             },
             "weapons":{
                 "primary":{
-                    "name":"E5S",
-                    "dice":"1d12 250 rng",
-                    "range":"-5 on attack roll to hit 10m or less, +1d6 when 40+m ",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "name":"E5 Supressed",
+                    "dice":"1d4 ",
+                    "range":"250 m",
+                    "ammo":"5",
+                    "maxammo":"5",
+                    "extra":"Can attack twice, roll seperate"
                 },
                 "secondary":{
                     "name":"Dual Vibroknives",
@@ -364,13 +364,13 @@
                     "extra":""
                 }
             },
-            "class":"BX Heavy",
+            "class":"BX BX Stealth/Sniper 2 Vibroknives",
             "background":"Droid",
             "species":"Droid",
             "alignment":"CIS",
             "ac":"12",
             "speed":"40",
-            "extraSkills":"5 AC to all melee attacks"
+            "extraSkills":"10 AC to all melee attacks"
         }
     },
     {
@@ -394,6 +394,40 @@
                     "dice":"1d20",
                     "range":"Must roll 10+EnemyConstitution or above",
                     "ammo":"",
+                    "maxammo":"",
+                    "extra":""
+                }
+            },
+            "class":"Magnaguard",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"10",
+            "speed":"40m",
+            "extraSkills":"Only 1 per Commander"
+        }
+    },
+      {
+        "classname":"CIS - Magnaguard ElectroStaff",
+        "classStats":{
+            "health":{
+                "max":"12",
+                "current":"12"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"ElectroStaff",
+                    "dice":"2d6",
+                    "range":"",
+                    "ammo":"",
+                    "maxammo":"",
+                    "extra":"Can use attack action to block blaster fire from single direction. To stun, roll against target Constitution"
+                },
+                "secondary":{
+                    "name":"",
+                    "dice":"",
+                    "range":" ",
+                    "ammo":
                     "maxammo":"",
                     "extra":""
                 }
