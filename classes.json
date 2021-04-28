@@ -11,7 +11,7 @@
                     "name":"E-5",
                     "dice":"1d6",
                     "range":"40rng",
-                    "ammo":"4",
+                    "magammo":"4",
                     "mags":"4",
                     "extra":"2 per turn"
                 },
