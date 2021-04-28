@@ -220,12 +220,12 @@
                     "extra":"-5 on attack roll to hit 10m or less, +1d6 when 40+m (Attack roll and Damage roll)"
                 },
                 "secondary":{
-                    "name":"",
-                    "dice":"",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "name":"SE-14",
+                    "dice":"1d6",
+                    "range":"35",
+                    "ammo":"2",
+                    "maxammo":"5",
+                    "extra":"Can be dual wielded"
                 }
             },
             "class":"B1 Sniper",
