@@ -427,9 +427,9 @@
                     "name":"",
                     "dice":"",
                     "range":" ",
-                    "ammo":
+                    "ammo":"",
                     "maxammo:"",
-                    "extra":""
+                    "extra:""
                 }
             },
             "class":"Magnaguard",
