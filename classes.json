@@ -426,9 +426,9 @@
                 "secondary":{
                     "name":"",
                     "dice":"",
-                    "range":" ",
+                    "range":"",
                     "ammo":"",
-                    "maxammo:"",
+                    "maxammo":"",
                     "extra:""
                 }
             },
