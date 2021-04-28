@@ -11,8 +11,8 @@
                     "name":"E-5",
                     "dice":"1d6",
                     "range":"40rng",
-                    "magammo":"4",
-                    "mags":"4",
+                    "ammo":"4",
+                    "maxammo":"4",
                     "extra":"2 per turn"
                 },
                 "secondary":{
@@ -20,7 +20,7 @@
                     "dice":"",
                     "range":"",
                     "ammo":"",
-                    "mags":"",
+                    "maxammo":"",
                     "extra":""
                 }
             },
@@ -46,7 +46,7 @@
                     "dice":"3d6",
                     "range":"20rng",
                     "ammo":"",
-                    "mags":"",
+                    "maxammo":"",
                     "extra":""
                 },
                 "secondary":{
@@ -54,7 +54,7 @@
                     "dice":"1d12",
                     "range":"30rng",
                     "ammo":"",
-                    "mags":"",
+                    "maxammo":"",
                     "extra":"AOE 5, V Weapon"
                 }
             },
@@ -80,7 +80,7 @@
                     "dice":"1d8",
                     "range":"20rng",
                     "ammo":"",
-                    "mags":"",
+                    "maxammo":"",
                     "extra":"Can attack 4 times"
                 },
                 "secondary":{
@@ -88,7 +88,7 @@
                     "dice":"",
                     "range":"80m",
                     "ammo":"",
-                    "mags":"",
+                    "maxammo":"",
                     "extra":"Change to Standing"
                 }
             },
