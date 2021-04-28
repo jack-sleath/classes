@@ -1,4 +1,38 @@
 [
+     {
+        "classname":"CIS - B1 Rocket Assault",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"E-5",
+                    "dice":"1d6",
+                    "range":"40rng",
+                    "ammo":"4",
+                    "maxammo":"4",
+                    "extra":"2 per turn"
+                },
+                "secondary":{
+                    "name":"Rocket Launcher",
+                    "dice":"4d6",
+                    "range":"50",
+                    "ammo":"1",
+                    "maxammo":"2",
+                    "extra":"Must use Stand to stablize"
+                }
+            },
+            "class":"B1 Assault",
+            "background":"Droid",
+            "species":"Droid",
+            "alignment":"CIS",
+            "ac":"8",
+            "speed":"30m",
+            "extraSkills":""
+        }
+    },
     {
         "classname":"CIS - B1 Assault",
         "classStats":{
@@ -45,16 +79,16 @@
                     "name":"B-2 Wrist",
                     "dice":"3d6",
                     "range":"20rng",
-                    "ammo":"",
-                    "maxammo":"",
+                    "ammo":"2",
+                    "maxammo":"5",
                     "extra":""
                 },
                 "secondary":{
                     "name":"B-2 Wrist Rocket",
                     "dice":"1d12",
                     "range":"30rng",
-                    "ammo":"",
-                    "maxammo":"",
+                    "ammo":"1",
+                    "maxammo":"2",
                     "extra":"AOE 5, V Weapon"
                 }
             },
@@ -79,8 +113,8 @@
                     "name":"Droideka Blasters",
                     "dice":"1d8",
                     "range":"20rng",
-                    "ammo":"",
-                    "maxammo":"",
+                    "ammo":"10",
+                    "maxammo":"N/A",
                     "extra":"Can attack 4 times"
                 },
                 "secondary":{
@@ -112,10 +146,10 @@
                 "primary":{
                     "name":"Droideka Cannon",
                     "dice":"1d10",
-                    "range":"40rng",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":"Can attack twice, Aoe 5m"
+                    "range":"30 rng",
+                    "ammo":"4",
+                    "maxammo":"2",
+                    "extra":"Can attack twice, Aoe 10m cross"
                 },
                 "secondary":{
                     "name":"Droideka Rolling",
@@ -147,17 +181,17 @@
                     "name":"E-5",
                     "dice":"1d6",
                     "range":"40rng",
-                    "ammo":"",
-                    "maxammo":"",
+                    "ammo":"4",
+                    "maxammo":"4",
                     "extra":"2 per turn"
                 },
                 "secondary":{
                     "name":"Repair Tool",
                     "dice":"Repair",
                     "range":"Slice",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "ammo":"N/A",
+                    "maxammo":"N/A",
+                    "extra":"Can heal Target 2d6"
                 }
             },
             "class":"B1 Engineer",
@@ -165,8 +199,8 @@
             "species":"Droid",
             "alignment":"CIS",
             "ac":"5",
-            "speed":"15m",
-            "extraSkills":"Can use action to 'Build' a droid: Takes entire turn (can only have two creations on the field, modified droids are considered a creation)\n\tChoose one until next loadout change:\nCreates Auto Turret (Speed:0 AC 4 HP 6; Action Attack: B-2)\nDeploy Squad Shield (Ac 3, HP 40) (can not be shot through while inside) lasts 1 turn"
+            "speed":"25m",
+            "extraSkills":"Can change class of single droid, restock ammo up to 4 people, create auto turret"
         }
     },
     {
@@ -179,11 +213,11 @@
             "weapons":{
                 "primary":{
                     "name":"E-5s",
-                    "dice":"1d12 200rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d12",
+                    "range":" 200m",
+                    "ammo":"1",
+                    "maxammo":"6",
+                    "extra":"-5 on attack roll to hit 10m or less, +1d6 when 40+m (Attack roll and Damage roll)"
                 },
                 "secondary":{
                     "name":"",
@@ -199,8 +233,8 @@
             "species":"Droid",
             "alignment":"CIS",
             "ac":"8",
-            "speed":"40",
-            "extraSkills":"-5 on atk to hit 10m or less\n+1d6 when 40m+ on atk & dmg"
+            "speed":"40m",
+            "extraSkills":""
         }
     },
     {
@@ -213,28 +247,28 @@
             "weapons":{
                 "primary":{
                     "name":"E-5",
-                    "dice":"1d6 50rng",
-                    "range":"2 per turn, Stun Option",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d6",
+                    "range":"50m",
+                    "ammo":"4",
+                    "maxammo":"4",
+                    "extra":"2 per turn, Stun Option"
                 },
                 "secondary":{
                     "name":"Vibroblade",
                     "dice":"1d10",
-                    "range":"Can be carried 2 handed ",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "range":"Melee",
+                    "ammo":"N/A",
+                    "maxammo":"N/A",
+                    "extra":"Can be carried 2 handed"
                 }
             },
             "class":"BX Assault",
             "background":"Droid",
             "species":"Droid",
             "alignment":"CIS",
-            "ac":"14",
-            "speed":"30m",
-            "extraSkills":"7 AC to all melee attacks"
+            "ac":"10",
+            "speed":"35m",
+            "extraSkills":"12 AC to all melee attacks"
         }
     },
     {
@@ -247,11 +281,11 @@
             "weapons":{
                 "primary":{
                     "name":"E-5C",
-                    "dice":"2s6 30rng",
-                    "range":"No reload, Spray and Pray (AOE, All units take half damage)",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"2d6 30rng",
+                    "range":"30m",
+                    "ammo":"N/A",
+                    "maxammo":"N/A",
+                    "extra":"Can attack 3 times roll seperate for each attack"
                 },
                 "secondary":{
                     "name":"Vibroblade",
