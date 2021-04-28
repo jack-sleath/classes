@@ -451,16 +451,16 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15a",
-                    "dice":"1d8 75rng",
-                    "range":"Scope: If turn spent with no movement, +2 to hit; 1d10 for damage",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d8 ",
+                    "range":"75rng",
+                    "ammo":"4",
+                    "maxammo":"3",
+                    "extra":"Scope: If turn spent with no movement, +2 to hit; 1d10 for damage"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"1d6 30rng",
-                    "range":"",
+                    "dice":"1d6 ",
+                    "range":"30rng",
                     "ammo":"",
                     "maxammo":"",
                     "extra":""
@@ -485,18 +485,18 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "dice":"1d6 40rng",
-                    "range":"Can attack twice per turn",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d6",
+                    "range":"40rng",
+                    "ammo":"4",
+                    "maxammo":"4",
+                    "extra":"Can attack twice per turn"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"1d6 30rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
+                    "dice":"1d6",
+                    "range":"30rng",
+                    "ammo":"2",
+                    "maxammo":"5",
                     "extra":""
                 }
             },
@@ -506,7 +506,7 @@
             "alignment":"GAR",
             "ac":"8",
             "speed":"30",
-            "extraSkills":""
+            "extraSkills":"Unlimited per Battalion"
         }
     },
     {
@@ -553,19 +553,19 @@
             "weapons":{
                 "primary":{
                     "name":"Z-6",
-                    "dice":"2d6 35rng",
-                    "range":"AOE 5m Radius",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"2d6 ",
+                    "range":"35rng",
+                    "ammo":"5",
+                    "maxammo":"2",
+                    "extra":"AOE 5m Radius"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"1d6 30rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d6 ",
+                    "range":"30rng",
+                    "ammo":"2",
+                    "maxammo":"5",
+                    "extra":"can be duel wielded"
                 }
             },
             "class":"Heavy Clone",
@@ -587,19 +587,19 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "dice":"1d6 40rng",
-                    "range":"Can attack twice per turn",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d6 ",
+                    "range":"40rng",
+                    "ammo":"4",
+                    "maxammo":"4",
+                    "extra":"Can attack twice per turn"
                 },
                 "secondary":{
                     "name":"Rocket Launcher",
-                    "dice":"3d4 50rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"4d6",
+                    "range":"50rng",
+                    "ammo":"1",
+                    "maxammo":"2",
+                    "extra":"Does V damage"
                 }
             },
             "class":"Heavy Clone",
@@ -608,7 +608,7 @@
             "alignment":"GAR",
             "ac":"10",
             "speed":"25",
-            "extraSkills":""
+            "extraSkills":"4 heavies per battalion"
         }
     },
     {
@@ -621,18 +621,18 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15x",
-                    "dice":"1d12 200rng",
-                    "range":"-5 to attack roll within 10m, +1d6 to shots longer than 40 meters",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d12 ",
+                    "range":"200rng",
+                    "ammo":"1",
+                    "maxammo":"6",
+                    "extra":"-5 to attack roll within 10m, +1d6 to shots longer than 40 meters"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"1d6 30rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
+                    "dice":"1d6 ",
+                    "range":"30rng",
+                    "ammo":"2",
+                    "maxammo":"5",
                     "extra":""
                 }
             },
@@ -655,19 +655,19 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "dice":"1d6 40rng",
-                    "range":"Can attack twice per turn",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d6 ",
+                    "range":"40rng",
+                    "ammo":"4",
+                    "maxammo":"4",
+                    "extra":"Can attack twice per turn"
                 },
                 "secondary":{
                     "name":"Repair Tool",
                     "dice":"2d6",
                     "range":"heals object targets",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "ammo":"N/A",
+                    "maxammo":"N/A",
+                    "extra":"Can build Hardcover (Provides cover from specified 2 adjacent cardinal directions and inbetween, protects all behind until broken) (HP 30 AC 5)2 squares of hard cover, takes both action and movement"
                 }
             },
             "class":"Engineer Clone",
@@ -676,7 +676,7 @@
             "alignment":"GAR",
             "ac":"8",
             "speed":"30",
-            "extraSkills":"Special: Can build Hardcover (Provides cover from specified 2 adjacent cardinal directions and inbetween, protects all behind until broken) (HP 30 AC 5)2 squares of hard cover, takes both action and movementChoose one until next loadout change:Creates Auto Turret (Speed:0 AC 4 HP 6; Action Attack: B-2)Deploy Squad Shield (Ac 3, HP 40) (can not be shot through while inside) Lasts 1 turn "
+            "extraSkills":" "
         }
     },
     {
@@ -689,11 +689,11 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "dice":"1d6 40rng",
-                    "range":"Can attack twice per turn, roll separately",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d6",
+                    "range":"40rng",
+                    "ammo":"4",
+                    "maxammo":"4",
+                    "extra":"Can attack twice per turn, roll separately"
                 },
                 "secondary":{
                     "name":"Bacta Pack",
@@ -710,7 +710,7 @@
             "alignment":"GAR",
             "ac":"8",
             "speed":"30m",
-            "extraSkills":""
+            "extraSkills":"3 per Battalion"
         }
     },
     {
@@ -723,19 +723,19 @@
             "weapons":{
                 "primary":{
                     "name":"DC-15s",
-                    "dice":"1d6 40rng",
-                    "range":"Can attack twice per turn, roll separately",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d8",
+                    "range":"40rng",
+                    "ammo":"4",
+                    "maxammo":"4",
+                    "extra":"Can attack twice per turn, roll separately"
                 },
                 "secondary":{
                     "name":"Stun Baton",
                     "dice":"1d20",
-                    "range":"Must roll 10+EnemyConstitution or above",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "range":"N/A",
+                    "ammo":"N/A",
+                    "maxammo":"N/A",
+                    "extra":"Stun rolls against enemy constitution"
                 }
             },
             "class":"Coruscant Guard",
@@ -744,31 +744,65 @@
             "alignment":"GAR",
             "ac":"10",
             "speed":"40",
-            "extraSkills":""
+            "extraSkills":"Squad Shield (AC 3 HP 40) (3 charges): (can not be shot through while inside) Lasts 1 turn "
         }
     },
     {
         "classname":"GAR - ARC Assault",
         "classStats":{
             "health":{
-                "max":"15",
-                "current":"15"
+                "max":"10",
+                "current":"10"
             },
             "weapons":{
                 "primary":{
                     "name":"ARC Blaster",
-                    "dice":"1d10, 75rng",
-                    "range":"",
-                    "ammo":"",
-                    "maxammo":"",
+                    "dice":"1d10,",
+                    "range":"75rng",
+                    "ammo":"6",
+                    "maxammo":"4",
                     "extra":""
                 },
                 "secondary":{
                     "name":"DC-17",
                     "dice":"2d6 30rng",
-                    "range":"Dual",
+                    "range":"30rng",
+                    "ammo":"2",
+                    "maxammo":"5",
+                    "extra":"Dual"
+                }
+            },
+            "class":"ARC Assault",
+            "background":"Clone",
+            "species":"Clone",
+            "alignment":"GAR",
+            "ac":"12",
+            "speed":"35",
+            "extraSkills":""
+        }
+    },
+     {
+        "classname":"GAR - ARC Assault Duel DC-17",
+        "classStats":{
+            "health":{
+                "max":"10",
+                "current":"10"
+            },
+            "weapons":{
+                "primary":{
+                    "name":"2x DC-17",
+                    "dice":"2d6",
+                    "range":"30",
+                    "ammo":"6",
+                    "maxammo":"4",
+                    "extra":"Ammo is individual"
+                },
+                "secondary":{
+                    "name":"Bacta Pack",
+                    "dice":"1d6",
+                    "range":"N/A",
                     "ammo":"",
-                    "maxammo":"",
+                    "maxammo":"4",
                     "extra":""
                 }
             },
@@ -777,7 +811,7 @@
             "species":"Clone",
             "alignment":"GAR",
             "ac":"12",
-            "speed":"25",
+            "speed":"35",
             "extraSkills":""
         }
     },
@@ -785,24 +819,24 @@
         "classname":"GAR - ARC Heavy",
         "classStats":{
             "health":{
-                "max":"20",
-                "current":"20"
+                "max":"12",
+                "current":"12"
             },
             "weapons":{
                 "primary":{
                     "name":"Z-6",
-                    "dice":"2d6, 35rng",
-                    "range":"All damage is AOE on spot chosen, 5m",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"2d6",
+                    "range":"35rng",
+                    "ammo":"5",
+                    "maxammo":"2",
+                    "extra":"All damage is AOE on spot chosen, 5m"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"2d6 30rng",
-                    "range":"Dual",
-                    "ammo":"",
-                    "maxammo":"",
+                    "dice":"2d6 ",
+                    "range":"30rng",
+                    "ammo":"2",
+                    "maxammo":"5",
                     "extra":""
                 }
             },
@@ -810,8 +844,8 @@
             "background":"Clone",
             "species":"Clone",
             "alignment":"GAR",
-            "ac":"14",
-            "speed":"25",
+            "ac":"15",
+            "speed":"30",
             "extraSkills":""
         }
     },
@@ -825,18 +859,18 @@
             "weapons":{
                 "primary":{
                     "name":"Dc-15x",
-                    "dice":"1d12, 250 rng",
-                    "range":"-5 to attack roll within 10m, +1d6 40m+",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "dice":"1d12",
+                    "range":"200",
+                    "ammo":"2",
+                    "maxammo":"7",
+                    "extra":"-5 to attack roll within 10m, +1d6 40m+"
                 },
                 "secondary":{
                     "name":"DC-17",
-                    "dice":"2d6 30rng",
-                    "range":"Dual",
-                    "ammo":"",
-                    "maxammo":"",
+                    "dice":"2d6",
+                    "range":"30rng",
+                    "ammo":"2",
+                    "maxammo":"5",
                     "extra":""
                 }
             },
@@ -844,7 +878,7 @@
             "background":"Clone",
             "species":"Clone",
             "alignment":"GAR",
-            "ac":"10",
+            "ac": "10",
             "speed":"35",
             "extraSkills":""
         }
@@ -860,18 +894,18 @@
                 "primary":{
                     "name":"Suppressed ARC Blaster",
                     "dice":"1d8, 75 rng",
-                    "range":"If you are shooting will undetected(ask GM) gain +1 to hit and +3 to damage",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "range":"",
+                    "ammo":"6",
+                    "maxammo":"4",
+                    "extra":"If you are shooting will undetected(ask GM) gain +1 to hit and +3 to damage"
                 },
                 "secondary":{
-                    "name":"DC-17",
-                    "dice":"2d6 30rng",
-                    "range":"Dual",
-                    "ammo":"",
-                    "maxammo":"",
-                    "extra":""
+                    "name":"2x Vibroknives",
+                    "dice":"2d4",
+                    "range":"N/A",
+                    "ammo":"N/A",
+                    "maxammo":"N/A",
+                    "extra":"Dual"
                 }
             },
             "class":"ARC Stealth",
